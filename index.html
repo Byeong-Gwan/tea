@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 티타임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>T World 티타임</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#schedule">스케줄</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>환영합니다!</h2>
+            <p>동료들과 함께 편안한 티타임을 즐기세요!</p>
+        </section>
+        <section id="schedule">
+            <h2>메뉴</h2>
+            <label for="menu">커피를 선택하세요:</label>
+            <select id="menu">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <p id="price"></p>
+            <button id="addMenuBtn">선택 추가</button>
+            <ul id="selectedMenuList"></ul>
+            <p>총 선택 인원: <span id="totalCount">0</span></p>
+            <p>총 금액: <span id="totalAmount">0</span>원</p>
+        </section>
+        <section id="about">
+            <h2>소개</h2>
+            <p>회사 티타임은 휴식을 취하고 동료들과 소통할 수 있는 좋은 기회입니다.</p>
+        </section>
+        <section id="contact">
+            <h2>연락처</h2>
+            <form>
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">메시지:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">전송</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 회사 티타임. 모든 권리 보유.</p>
+        <p class="developer">개발자 김병관 주임</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

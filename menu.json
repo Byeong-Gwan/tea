@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Americano",
+        "price": 3000
+    },
+    {
+        "name": "Latte",
+        "price": 3500
+    },
+    {
+        "name": "Cappuccino",
+        "price": 3500
+    },
+    {
+        "name": "Mocha",
+        "price": 4000
+    },
+    {
+        "name": "Espresso",
+        "price": 2500
+    }
+]
